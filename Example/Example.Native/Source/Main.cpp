@@ -1,15 +1,8 @@
 #include <iostream>
-#include <string>
-#include <vector>
 #include <filesystem>
-#include <chrono>
-#include <functional>
-#include <ranges>
 
-#include <Coral/HostInstance.hpp>
-#include <Coral/GC.hpp>
-#include <Coral/Array.hpp>
-#include <Coral/Attribute.hpp>
+#include <Coral/Coral.hpp>
+
 
 void ExceptionCallback(std::string_view InMessage)
 {

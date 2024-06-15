@@ -2,6 +2,9 @@
 
 #include "String.hpp"
 
+#include <functional>
+
+
 namespace Coral {
 
 	enum class MessageLevel
